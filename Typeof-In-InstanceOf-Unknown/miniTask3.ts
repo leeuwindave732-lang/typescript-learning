@@ -25,7 +25,6 @@ type StudentCourse = {
 type StudentInformation = StudentInfo & StudentCourse 
 
 // check if an unknown value is a valid StudentInformation
-
 function isStudent(obj: unknown): obj is StudentInformation  {
     if (typeof obj !== "object" || obj === null ) return false;
 
@@ -94,4 +93,10 @@ const StudentData: unknown[] = [
     null,
 ];
 
-handleStudent(StudentData)
+handleStudent(StudentData) 
+
+
+/* this is just the same with the mini task 2 but i
+    added more improvements such as it will detect the
+    primitive data and log it, and the enhancement in 
+    typeguard */
