@@ -43,17 +43,22 @@
 
 # If all done lets proceed to the 100 days challenge
 
-# Day 1 - Basics with Mini Task // Learn how the const and let works [open] (./basics)
-# Day 2 - Typescript Types with Mini Task // Learn how any, boolean, string, number, unknown works [open] (./typescript-types)
-# Day 3 - Functions, Params and Return Types with Mini Task // Learn how the function works
-# Day 4 - Arrays, Tuple and Readonly with Mini Task // Learn how Arrays, Tuples, Readonly works
-# Day 5 - Objects, Interface and Type Aliases with Mini Task // Learn how Objects, Interface and Type Aliases works
-# Day 6 - Enums, Literal Types, Union and Intersection Types with Mini Task // Learn how Enums, Literal Types, Union & Intersection Types works
-# Day 7 - Generics with Mini Task // Learn How Generics work
-# Day 8 - Type Narrowing & Type Guards with Mini Task // Learn how typeof, in, instance-of, unknown, and type guards work
-# Day 9 - Discriminated Union + Exhaustive Checks with Mini Task // Learn how Discriminated and Exhaustive works
-# Day 10 - Assertion Functions with Mini Task // Learn how Assertion works
-# Mini Project Day 1 - 10: Student Manager Console App
-# Day 11 - Utility types with Mini Task // Learn how Partial, Required, Pick, Omit, Readonly, Required works
-# Day 12 - Advance Object Typing with Mini Task // Learn how keyof and indexed work
-# Day 13 - Master the Mapped and Conditional types with Mini Task // Master how it works
+## 📂 Daily Progress
+
+- [Day 01 – Basics (const & let)](./Basics)
+- [Day 02 – TypeScript Types](./typescript-types)
+- [Day 03 – Functions](./functions_)
+- [Day 04 – Arrays, Tuples & Readonly](./Arrays-Tuples-Readonly)
+- [Day 05 – Objects, Interfaces & Type Aliases](./Objects-Aliases-Interface)
+- [Day 06 – Enums, Union & Intersection Types](./Enums-LiteralTypes-Union-Intersection)
+- [Day 07 – Generics](./generics)
+- [Day 08 – Type Narrowing & Guards](./Typeof-In-InstanceOf-Unknown)
+- [Day 09 – Discriminated Unions](./DiscriminatedUnions-ExhaustiveChecks)
+- [Day 10 – Assertion Functions](./Assertions)
+
+## Mini Project
+- [Student Manager Console App (Day 1–10)](./Mini-Projects/MiniProject1.ts)
+
+- [Day 11 – Utility Types](./Utility-types)
+- [Day 12 – Advanced Object Typing](./Advance-Object-Typing)
+- [Day 13 – Mapped & Conditional Types](./MappedTypes-ConditionalTypes)
