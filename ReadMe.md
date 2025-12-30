@@ -58,6 +58,7 @@
 - [Day 11 – Utility Types](./Utility-types)
 - [Day 12 – Advanced Object Typing](./Advance-Object-Typing)
 - [Day 13 – Mapped & Conditional Types](./MappedTypes-ConditionalTypes)
+- [Day 14 - Advance Type Manipulation](./Advance-Type-Manipulation)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/MiniProject1.ts)
