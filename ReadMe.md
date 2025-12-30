@@ -45,7 +45,7 @@
 
 ## 📂 Daily Progress
 
-- [Day 01 – Basics (const & let)](./Basics)
+- [Day 01 – Basics (const & let)](./basics)
 - [Day 02 – TypeScript Types](./typescript-types)
 - [Day 03 – Functions](./functions_)
 - [Day 04 – Arrays, Tuples & Readonly](./Arrays-Tuples-Readonly)
@@ -55,10 +55,10 @@
 - [Day 08 – Type Narrowing & Guards](./Typeof-In-InstanceOf-Unknown)
 - [Day 09 – Discriminated Unions](./DiscriminatedUnions-ExhaustiveChecks)
 - [Day 10 – Assertion Functions](./Assertions)
+- [Day 11 – Utility Types](./Utility-types)
+- [Day 12 – Advanced Object Typing](./Advance-Object-Typing)
+- [Day 13 – Mapped & Conditional Types](./MappedTypes-ConditionalTypes)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/MiniProject1.ts)
 
-- [Day 11 – Utility Types](./Utility-types)
-- [Day 12 – Advanced Object Typing](./Advance-Object-Typing)
-- [Day 13 – Mapped & Conditional Types](./MappedTypes-ConditionalTypes)
