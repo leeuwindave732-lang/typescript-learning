@@ -43,8 +43,8 @@
 
 # If all done lets proceed to the 100 days challenge
 
-# Day 1 - Basics with Mini Task // Learn how the const and let works
-# Day 2 - Typescript Types with Mini Task // Learn how any, boolean, string, number, unknown works
+# Day 1 - Basics with Mini Task // Learn how the const and let works [open](./Basics/)
+# Day 2 - Typescript Types with Mini Task // Learn how any, boolean, string, number, unknown works [open] (./typescript-types)
 # Day 3 - Functions, Params and Return Types with Mini Task // Learn how the function works
 # Day 4 - Arrays, Tuple and Readonly with Mini Task // Learn how Arrays, Tuples, Readonly works
 # Day 5 - Objects, Interface and Type Aliases with Mini Task // Learn how Objects, Interface and Type Aliases works
