@@ -56,3 +56,4 @@
 # Mini Project Day 1 - 10: Student Manager Console App
 # Day 11 - Utility types with Mini Task // Learn how Partial, Required, Pick, Omit, Readonly, Required works
 # Day 12 - Advance Object Typing with Mini Task // Learn how keyof and indexed work
+# Day 13 - Master the Mapped and Conditional types with Mini Task // Master how it works
