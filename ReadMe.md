@@ -59,6 +59,7 @@
 - [Day 12 – Advanced Object Typing](./Advance-Object-Typing)
 - [Day 13 – Mapped & Conditional Types](./MappedTypes-ConditionalTypes)
 - [Day 14 - Advance Type Manipulation](./Advance-Type-Manipulation)
+- [Day 15 - Template Literal Types](./Template-Literal-Types/)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/MiniProject1.ts)
