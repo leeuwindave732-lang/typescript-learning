@@ -59,7 +59,7 @@
 - [Day 12 – Advanced Object Typing](./Advance-Object-Typing)
 - [Day 13 – Mapped & Conditional Types](./MappedTypes-ConditionalTypes)
 - [Day 14 - Advance Type Manipulation](./Advance-Type-Manipulation)
-- [Day 15 - Template Literal Types](./Template-Literal-Types)
+- [Day 15 - Template Literal Types & String Manipulation](./Template-Literal-Types)
 - [Day 16 - Modules](./Modules-)
 
 ## Mini Project
