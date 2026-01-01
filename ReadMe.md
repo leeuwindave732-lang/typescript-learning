@@ -37,7 +37,7 @@
         example code: console.log("Hello TypeScript"); 
     
     6. Run the file
-        In terminal install: npm install -g ts-node
+        In terminal install: npm install -g ts-node or npm install -D tsx
         In terminal: cd (your file name) e.g.: index.ts // use this if its in folder otherwise proceed to the second one
                      npx ts-node (your file name) e.g.: index.ts
 
@@ -59,7 +59,8 @@
 - [Day 12 – Advanced Object Typing](./Advance-Object-Typing)
 - [Day 13 – Mapped & Conditional Types](./MappedTypes-ConditionalTypes)
 - [Day 14 - Advance Type Manipulation](./Advance-Type-Manipulation)
-- [Day 15 - Template Literal Types](./Template-Literal-Types/)
+- [Day 15 - Template Literal Types](./Template-Literal-Types)
+- [Day 16 - Modules](./Modules-)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/MiniProject1.ts)
