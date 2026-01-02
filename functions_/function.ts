@@ -6,18 +6,20 @@
 
 // heres how to do it 
 
-const add = (
-    a: number,
-    b: number
-): number => {
-    return a + b
-}
+function Student (
+    name: string,
+    year: number,
+    age: number
+): void {
+    console.log(`name: ${name}`);
+    console.log(`year: ${year} year`);
+    console.log(`age: ${age}`);
+} // use void when nothing is returned
 
-/* this is optional if you dont want to print 
-add (
-    10, 
-    20
+// call the function
+
+Student(
+    "Seiju",
+    1,
+    18
 )
-*/
-
-console.log(add(10,20)) // use this if you want to print the function
