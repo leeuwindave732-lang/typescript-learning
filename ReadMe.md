@@ -62,6 +62,7 @@
 - [Day 15 - Template Literal Types & String Manipulation](./TemplateLiteralTypes&StringManipulation)
 - [Day 16 - Modules](./Modules-)
 - [Day 17 - Advance Type Safety Patterns](./Advance-Type-Safety-Patterns)
+- [Day 18 - Type Inference & Template Literal Types in Practice](./TypeInference-TemplaLiteral-In-Practice)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/MiniProject1.ts)
