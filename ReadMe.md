@@ -67,7 +67,7 @@
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/MiniProject1.ts)
 
-## Daily Learning
+## 📝 Daily Learning
 - Day 01: Learn the difference between const and let
 - Day 02: Learn the different TypeScript types (any, string, number, boolean, unknown)
 - Day 03: Learn functions, parameters, and return types
