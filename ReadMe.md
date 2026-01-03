@@ -63,26 +63,28 @@
 - [Day 16 - Modules](./Modules-)
 - [Day 17 - Advance Type Safety Patterns](./Advance-Type-Safety-Patterns)
 - [Day 18 - Type Inference & Template Literal Types in Practice](./TypeInference-TemplaLiteral-In-Practice)
+- [Day 19 - Utility Types with Advance Guards](./UtilityTypes-AdvanceGenericss)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/MiniProject1.ts)
 
 ## 📝 Daily Learning
-- Day 01: Learn the difference between const and let
-- Day 02: Learn the different TypeScript types (any, string, number, boolean, unknown)
-- Day 03: Learn functions, parameters, and return types
-- Day 04: Learn arrays, tuples, and readonly
-- Day 05: Learn objects, interfaces, and type aliases
-- Day 06: Learn enums, literal types, union & intersection types
-- Day 07: Learn how generics work
-- Day 08: Learn type narrowing and type guards (typeof, in, instanceof, unknown)
-- Day 09: Learn discriminated unions and exhaustive checks
-- Day 10: Learn assertion functions
-- Day 11: Learn utility types (Partial, Required, Pick, Omit, Readonly)
-- Day 12: Learn advanced object typing (keyof and indexed access types)
-- Day 13: Master mapped & conditional types
+- Day 01: Understand the difference between const and let
+- Day 02: Understand the different TypeScript types (any, string, number, boolean, unknown)
+- Day 03: Understand functions, parameters, and return types
+- Day 04: Understand arrays, tuples, and readonly
+- Day 05: Understand objects, interfaces, and type aliases
+- Day 06: Understand enums, literal types, union & intersection types
+- Day 07: Explore how generics work
+- Day 08: Explore type narrowing and type guards (typeof, in, instanceof, unknown)
+- Day 09: Explore discriminated unions and exhaustive checks
+- Day 10: Study assertion functions
+- Day 11: Explore utility types (Partial, Required, Pick, Omit, Readonly)
+- Day 12: Explore advanced object typing (keyof and indexed access types)
+- Day 13: Understand mapped & conditional types
 - Day 14: Learn conditional types & advanced type manipulation
 - Day 15: Learn template literal types and string manipulation
 - Day 16: Learn modules and how to organize code
 - Day 17: Learn advanced type safety patterns
-- Day 18: Learn type inference and template literal types in practice
+- Day 18: Understand type inference and template literal types in practice
+- Day 19: Get familiar with Utility Types with Advance Guars
