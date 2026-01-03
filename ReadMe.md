@@ -64,6 +64,7 @@
 - [Day 17 - Advance Type Safety Patterns](./Advance-Type-Safety-Patterns)
 - [Day 18 - Type Inference & Template Literal Types in Practice](./TypeInference-TemplaLiteral-In-Practice)
 - [Day 19 - Utility Types with Advance Guards](./UtilityTypes-AdvanceGenericss)
+- [Day 20 - Type-Level Logic & Compile-Time Validation](./Type-Level-Logic-Compile-Time-Validation)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/MiniProject1.ts)
@@ -87,4 +88,5 @@
 - Day 16: Learn modules and how to organize code
 - Day 17: Learn advanced type safety patterns
 - Day 18: Understand type inference and template literal types in practice
-- Day 19: Get familiar with Utility Types with Advance Guars
+- Day 19: Get familiar with Utility Types with Advance Guards
+- Day 20: Strengthen Type-Level Logic & Compile-Time Validation
