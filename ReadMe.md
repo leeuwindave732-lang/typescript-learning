@@ -13,6 +13,10 @@
     1. Install Node.js (required)
         Download from: https://nodejs.org
         Choose LTS (recommended)
+        Click LTS (green button)
+        Download the .msi file
+        Double-click it and keep clicking Next
+            ✔️ Leave “Add to PATH” checked
         Verify installation in terminal: 
             node -v
             npm -v
