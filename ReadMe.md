@@ -71,6 +71,7 @@
 - [Day 19 - Utility Types with Advance Guards](./UtilityTypes-AdvanceGenericss)
 - [Day 20 - Type-Level Logic & Compile-Time Validation](./Type-Level-Logic-Compile-Time-Validation)
 - [Day 21 - Classes & Object Oriented](./Classes-Object-Oriented)
+- [Day 22 - Interfaces, Abstract Classes & Polymorphism](./Interfaces-Abstract-Polymorphism)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
@@ -98,3 +99,4 @@
 - Day 19: Get familiar with Utility Types with Advance Guards
 - Day 20: Strengthen Type-Level Logic & Compile-Time Validation
 - Day 21: Get introduced to Classes & Object Oriented
+- Day 22: Get introduced to Interfaces, Abstract Classes & Polymorphismm
