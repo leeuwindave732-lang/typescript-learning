@@ -26,7 +26,8 @@
         In terminal: mkdir typescript-project
                      cd typescript-project
 
-        Initialize npm: npm init -y
+        Initialize npm: npm init -y or npm install --save-dev typescript tsx
+
 
     4. Initialize Typescript Configuration
         Create a tsconfig.json file: tsc --init
