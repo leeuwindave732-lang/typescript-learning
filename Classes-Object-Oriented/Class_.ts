@@ -1,5 +1,8 @@
 // Class 
-
+/*  public - (default) allows access to the class member from anywhere
+    private - only allows access to the class member from within the class
+    protected - allows access to the class member from itself and any classes that inherit it, which is covered in the inheritance section below
+*/
 class Person {
     readonly name: string; // cannot be changed once assigned
     protected age: number;  // accessible inside class and subclasses
