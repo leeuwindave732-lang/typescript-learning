@@ -13,7 +13,7 @@
     1. Install Node.js (required)
         Download from: https://nodejs.org
         Choose LTS (recommended)
-        Verify installation: 
+        Verify installation in terminal: 
             node -v
             npm -v
 
