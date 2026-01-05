@@ -73,6 +73,7 @@
 - [Day 21 - Classes & Object Oriented](./Classes-Object-Oriented)
 - [Day 22 - Interfaces, Abstract Classes & Polymorphism](./Interfaces-Abstract-Polymorphism)
 - [Day 23 - Decorators & MetaData](./Decorators-Metadata)
+- [Day 24 - Namespace](./Namespace)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
@@ -102,3 +103,4 @@
 - Day 21: Get introduced to Classes & Object Oriented
 - Day 22: Get introduced to Interfaces, Abstract Classes & Polymorphismm
 - Day 23: Dive into Decorators & MetaData
+- Day 24: Understand Namespace
