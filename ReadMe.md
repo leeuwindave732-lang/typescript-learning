@@ -74,6 +74,7 @@
 - [Day 22 - Interfaces, Abstract Classes & Polymorphism](./Interfaces-Abstract-Polymorphism)
 - [Day 23 - Decorators & MetaData](./Decorators-Metadata)
 - [Day 24 - Namespace](./Namespace)
+- [Day 25 - Namespace Vs Module](./Modules-Vs-Namespace)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
@@ -104,3 +105,4 @@
 - Day 22: Get introduced to Interfaces, Abstract Classes & Polymorphismm
 - Day 23: Dive into Decorators & MetaData
 - Day 24: Understand Namespace
+- Day 25: Undestand what is the difference between Namespace and Module
