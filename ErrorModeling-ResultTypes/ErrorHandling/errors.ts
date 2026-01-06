@@ -2,5 +2,5 @@
 
 export type UserError = 
     | "NOT_FOUND"
-    | "ALREADY_EXISTS"
+    | "ALREADY_EXIST"
     | "INVALID_EMAIL"
