@@ -84,6 +84,7 @@
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
 - [TypeSafe Student & Role Manager (Day 11-20)](./Mini-Projects/Day11-20)
+- []
 
 ## 📝 Daily Learning
 - Day 01: Understand the difference between const and let

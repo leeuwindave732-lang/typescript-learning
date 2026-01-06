@@ -1,5 +1,5 @@
 // Day 21 – 30 Mini Project
-// TypeSafe Backend Domain Architecture
+// Type-Safe Backend User & Student Management System
 
 /* Requirements:
 
