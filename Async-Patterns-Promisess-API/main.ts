@@ -28,6 +28,10 @@ async function main() {
         const updated = await userRepo.update(102, { role: "User" });
         console.log("Updated user:" ,updated)
 
+        // delete user id 101 to the database
+        const deleted = await userRepo.remove(101)
+        console.log("Delete user:", deleted)
+
         // list all the current user
         console.log("All users:", await userRepo.list())
     } catch (error) {
