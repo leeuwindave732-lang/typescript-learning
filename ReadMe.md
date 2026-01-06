@@ -78,6 +78,7 @@
 - [Day 26 - Advance Backend Validation & Utility Types](./Advance-Backend-Utility-Types)
 - [Day 27 - Generics & CRUD Advance Collection](./Generics-Advance-Collections)
 - [Day 28 - Async Patterns, Promises & Type-Safe APIs](./Async-Patterns-Promisess-API)
+- [Day 29 - Error Modeling & Result Types]
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
@@ -112,3 +113,4 @@
 - Day 26: Strengthen the backend with Advance Backend Validation & Utility Types + async, await
 - Day 27: Apply Generics & CRUD Advance Collection 
 - Day 28: Apply Async Patterns, Promises & Type-Safe APIs
+- Day 29: Advance into Error Modeling & Result Types
