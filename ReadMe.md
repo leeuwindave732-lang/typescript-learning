@@ -81,6 +81,7 @@
 - [Day 29 - Error Modeling & Result Types](./ErrorModeling-ResultTypes)
 - [Day 30 - Backend Controller](./Backend-Controller)
 - [Day 31 - Service Layer & Use-Case Orchestration](./ServiceLayer-UserCaseOrchestration)
+- [Day 32 - Data Transfer Object - DTO](./DTO)
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
 - [TypeSafe Student & Role Manager (Day 11-20)](./Mini-Projects/Day11-20)
@@ -117,4 +118,5 @@
 - Day 28: Apply Async Patterns, Promises & Type-Safe APIs
 - Day 29: Advance into Error Modeling & Result Types
 - Day 30: Apply Backend Controller
-- Day 31: Service Layer & Use-Case Orchestration
+- Day 31: Understand Service Layer & Use-Case Orchestration
+- Day 32: Strengthen the backend with Data Transfer Object 
