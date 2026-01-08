@@ -84,6 +84,7 @@
 - [Day 32 - Data Transfer Object - DTO](./DTO)
 - [Day 33 - Function Overload](./FunctionOverload)
 - [Day 34 - Generics V2](./GenericsV2)
+- [Day 35 - Conditional Types V2](./ConditionalTypesV2)
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
 - [TypeSafe Student & Role Manager (Day 11-20)](./Mini-Projects/Day11-20)
@@ -123,4 +124,5 @@
 - Day 31: Understand Service Layer & Use-Case Orchestration
 - Day 32: Strengthen the backend with Data Transfer Object 
 - Day 33: Learn Function Overload + Backend
-- Day 34: Learn more about generics
+- Day 34: Understand more about generics
+- Day 35: Understand more about conditional types
