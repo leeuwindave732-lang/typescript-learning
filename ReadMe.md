@@ -85,7 +85,7 @@
 - [Day 33 - Function Overload](./FunctionOverload)
 - [Day 34 - Generics V2](./GenericsV2)
 - [Day 35 - Conditional Types V2](./ConditionalTypesV2)
-- [Day 36 - Compiler Configuration](./CompilerConfig)
+- [Day 36 - Compiler Configuration & tsconfig.json](./CompilerConfig)
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
 - [TypeSafe Student & Role Manager (Day 11-20)](./Mini-Projects/Day11-20)
