@@ -95,7 +95,7 @@
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
 - [TypeSafe Student & Role Manager (Day 11-20)](./Mini-Projects/Day11-20)
 - [TypeSafe Backend User & Student Management System](./Mini-Projects/Day21-30)
-- []
+- [Employee Lifecycle Management System](./Mini-Projects/Day31-40)
 
 ## 📝 Daily Learning
 - Day 01: Understand the difference between const and let
