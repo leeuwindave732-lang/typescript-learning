@@ -1,5 +1,5 @@
 // Day 31 – 40 Mini Project
-// TypeSafe Employee Lifecycle Management System
+//  Employee Lifecycle Management System
 
 /* Requirements:
 
