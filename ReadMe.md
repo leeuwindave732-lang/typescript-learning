@@ -86,6 +86,7 @@
 - [Day 34 - Generics V2](./GenericsV2)
 - [Day 35 - Conditional Types V2](./ConditionalTypesV2)
 - [Day 36 - Compiler Configuration & tsconfig.json](./CompilerConfig)
+- [Day 37 - Advance Function Overload](./AdvanceFunctionOverload-TypeGuards)
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
 - [TypeSafe Student & Role Manager (Day 11-20)](./Mini-Projects/Day11-20)
@@ -128,3 +129,4 @@
 - Day 34: Understand more about generics
 - Day 35: Understand more about conditional types
 - Day 36: Learn about Compiler Configuration and tsconfig.json
+- Day 37: Advance Function Overload
