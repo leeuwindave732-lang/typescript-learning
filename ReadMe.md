@@ -91,6 +91,9 @@
 - [Day 39 - Mixin & Composition Patterns](./Mixins-Composition-Patterns)
 - [Day 40 - Advance Decorators](./Advance-Decorators)
 
+# For day 41 - 100
+- We will build a Messaging System
+- []
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
 - [TypeSafe Student & Role Manager (Day 11-20)](./Mini-Projects/Day11-20)
