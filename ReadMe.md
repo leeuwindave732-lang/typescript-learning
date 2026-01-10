@@ -93,7 +93,12 @@
 
 # For day 41 - 100
 - We will build a Messaging System
-- []
+- [Day 41 - Created branded IDs to prevent mixing UserId, MessageId, and ConversationId. ](./Day41-45/core/)
+- [Day 42 - Built User entity and service with rules like Admin requiring Gmail.](./Day41-45/users/)
+- [Day 43 - Created Conversation entity ensuring unique members only.](./Day41-45/conversations/)
+- [Day 44 - Implemented Message states (sent, delivered, read, edit, delete) with valid transitions.](./Day41-45/messages/)
+- [Day 35 - Built EventBus and MessageService to handle sending, reading, editing, deleting messages with events.](./Day41-45/events/)
+
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
 - [TypeSafe Student & Role Manager (Day 11-20)](./Mini-Projects/Day11-20)
@@ -141,3 +146,8 @@
 - Day 38: Learn more Advance Class
 - Day 39: Understand Mixin and Composition Patterns
 - Day 40: Learn more about Advance Decorators
+- Day 41: Learned branded IDs to prevent mixing UserId, MessageId, and ConversationId.
+- Day 42: Built User entity and service with lifecycle rules (e.g., Admin must use Gmail).
+- Day 43: Created Conversation entity ensuring unique members only.
+- Day 44: Implemented message states (sent, delivered, read, delete, edit) with valid transitions.
+- Day 45: Built EventBus and MessageService to send, read, edit, delete messages with events.
