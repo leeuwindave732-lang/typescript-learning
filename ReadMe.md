@@ -97,7 +97,12 @@
 - [Day 42 - Built User entity and service with rules like Admin requiring Gmail.](./Day41-45/users/)
 - [Day 43 - Created Conversation entity ensuring unique members only.](./Day41-45/conversations/)
 - [Day 44 - Implemented Message states (sent, delivered, read, edit, delete) with valid transitions.](./Day41-45/messages/)
-- [Day 35 - Built EventBus and MessageService to handle sending, reading, editing, deleting messages with events.](./Day41-45/events/)
+- [Day 45 - Built EventBus and MessageService to handle sending, reading, editing, deleting messages with events.](./Day41-45/events/)
+- [Day 46 - Implement ConversationAggregate & timeline tracking for messages](./Day46-50/conversations/)
+- [Day 47 - Implement optimistic concurrency and versioning for messages](./Day46-50/messages/)
+- [Day 48 - Implement soft delete and immutable state patterns for messages](./Day46-50/messages/)
+- [Day 49 - Implement event sourcing and domain events for message state changes](./Day46-50/events/)
+- [Day 50 - Integrate full messaging system with users, conversations, messages, and events](./Day46-50/main.ts)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
@@ -151,3 +156,8 @@
 - Day 43: Created Conversation entity ensuring unique members only.
 - Day 44: Implemented message states (sent, delivered, read, delete, edit) with valid transitions.
 - Day 45: Built EventBus and MessageService to send, read, edit, delete messages with events.
+- Day 46: Implement ConversationAggregate & timeline tracking for messages
+- Day 47: Implement optimistic concurrency and versioning for messages
+- Day 48: Implement soft delete and immutable state patterns for messages
+- Day 49: Implement event sourcing and domain events for message state changes
+- Day 50: Integrate full messaging system with users, conversations, messages, and events
