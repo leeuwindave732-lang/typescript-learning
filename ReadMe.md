@@ -1,6 +1,6 @@
-# 100 days of typescript
+# 50 days of typescript
 
-    A personal challenge to learn typescript step by step for 100 days
+    A personal challenge to learn typescript step by step for 50 days
 
 # Goal?
 
