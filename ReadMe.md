@@ -1,6 +1,6 @@
-# 50 days of typescript
+# 100 days of typescript
 
-    A personal challenge to learn typescript step by step for 50 days
+    A personal challenge to learn typescript step by step for 100 days
 
 # Goal?
 
@@ -161,3 +161,4 @@
 - Day 48: Implement soft delete and immutable state patterns for messages
 - Day 49: Implement event sourcing and domain events for message state changes
 - Day 50: Integrate full messaging system with users, conversations, messages, and events
+
