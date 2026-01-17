@@ -25,146 +25,126 @@ const hajime = users.createUser({
     role: "Admin"
 });
 
-
-const convo = CreateConversation( ConversationId(1), [ seiju.id, hajime.id ])
-const convoAggregate = new ConversationAggregate(convo, events);
-
-const message = messages.send({
-    id: MessageId(1),
-    conversationId: ConversationId(1),
-    senderId: seiju.id,
-    content: "Hello Hajime",
-    state: { type: "sent", at: new Date() },
-    createdAt: new Date(),
-    deliveredTo: new Set(),
-    readBy: new Set(),
-    version: 1
+const ken = users.createUser({
+    id: 3,
+    name: "Ken",
+    email: "ken@gmail.com",
+    role: "Member"
 });
 
-const message1 = messages.send({
-    id: MessageId(2),
-    conversationId: ConversationId(1),
-    senderId: hajime.id,
-    content: "Hi Seiju",
-    state: { type: "sent", at: new Date() },
-    createdAt: new Date(),
-    deliveredTo: new Set(),
-    readBy: new Set(),
-    version: 1
-});
+let conversation = CreateConversation(
+    ConversationId(1),
+    [seiju.id, hajime.id]
+);
 
-const deliveredMessage = messages.markDelivered(MessageId(1), seiju.id);
-console.log("Delivered: ", deliveredMessage);
+console.log("Initial Conversation:", conversation);
 
-const editedMessage = messages.edit(
-    MessageId(1),
-    "Hi Hajime!, how are u?",
-    1,
-    seiju.id
-)
+let aggregate = new ConversationAggregate(conversation, events)
 
-console.log("Edited: ", editedMessage);
+conversation = aggregate.addMember(ken.id);
+aggregate = new ConversationAggregate(conversation, events);
 
-const readMessage = messages.markRead(MessageId(1), seiju.id);
-console.log("Read: ", readMessage)
+console.log("\nAfter Ken joined:");
+console.log(conversation.members);
+console.log(conversation.timeline);
 
+const { conversation: afterMessage, message } = aggregate.sendMessage(
+    seiju.id,
+    "Hello everyone 👋",
+    MessageId(1)
+);
 
-const deletedMessagae = messages.delete(MessageId(2));
-console.log("Deleted: ", deletedMessagae)
+conversation = afterMessage;
+aggregate = new ConversationAggregate(conversation, events);
+
+console.log("\nMessage created:");
+console.log(message);
+
+console.log("\nTimeline after message:");
+console.log(conversation.timeline);
+
+conversation = aggregate.removeMember(hajime.id);
+aggregate = new ConversationAggregate(conversation, events);
+
+console.log("\nAfter Hajime left:");
+console.log(conversation.members);
+console.log(conversation.timeline);
 
 console.log("All events: ", events.getAll())
 
-/* output: 
+/* Output:
+        Initial Conversation: { id: 1, members: [ 1, 2 ], timeline: [] }
+        [EVENT] {
+        type: 'UserJoinedConversation',
+        conversationId: 1,
+        userId: 3,
+        at: 2026-01-17T15:40:41.190Z
+        }
+
+        After Ken joined:
+        [ 1, 2, 3 ]
+        [ { type: 'user-joined', userId: 3, at: 2026-01-17T15:40:41.190Z } ]
         [EVENT] {
         type: 'MessageSent',
         messageId: 1,
         senderId: 1,
-        at: 2026-01-10T15:35:15.025Z
+        at: 2026-01-17T15:40:41.193Z
         }
-        [EVENT] {
-        type: 'MessageSent',
-        messageId: 2,
-        senderId: 2,
-        at: 2026-01-10T15:35:15.026Z
-        }
-        Delivered:  {
+
+        Message created:
+        {
         id: 1,
         conversationId: 1,
         senderId: 1,
-        content: 'Hello Hajime',
-        state: { type: 'delivered', at: 2026-01-10T15:35:15.026Z }
+        content: 'Hello everyone 👋',
+        state: { type: 'sent', at: 2026-01-17T15:40:41.193Z },
+        createdAt: 2026-01-17T15:40:41.193Z,
+        deliveredTo: Set(0) {},
+        readBy: Set(0) {},
+        version: 1,
+        attachments: [],
+        reactions: Map(0) {},
+        mentions: Set(0) {}
         }
+
+        Timeline after message:
+        [
+        { type: 'user-joined', userId: 3, at: 2026-01-17T15:40:41.190Z },
+        { type: 'Message', MessageId: 1, at: 2026-01-17T15:40:41.193Z }
+        ]
         [EVENT] {
-        type: 'MessageEdited',
-        messageId: 1,
-        editorId: 1,
-        content: 'Hi Hajime!, how are u?',
-        at: 2026-01-10T15:35:15.027Z
-        }
-        Edited:  {
-        id: 1,
+        type: 'UserLeftConversation',
         conversationId: 1,
-        senderId: 1,
-        content: 'Hi Hajime!, how are u?',
-        state: {
-            type: 'edited',
-            at: 2026-01-10T15:35:15.027Z,
-            content: 'Hi Hajime!, how are u?'
+        userId: 2,
+        at: 2026-01-17T15:40:41.197Z
         }
-        }
-        [EVENT] {
-        type: 'MessageRead',
-        messageId: 1,
-        senderId: 1,
-        readerId: 1,
-        at: 2026-01-10T15:35:15.027Z
-        }
-        Read:  {
-        id: 1,
-        conversationId: 1,
-        senderId: 1,
-        content: 'Hi Hajime!, how are u?',
-        state: { type: 'read', at: 2026-01-10T15:35:15.027Z }
-        }
-        [EVENT] { type: 'MessageDeleted', messageId: 2, at: 2026-01-10T15:35:15.028Z }
-        Deleted:  {
-        id: 2,
-        conversationId: 1,
-        senderId: 2,
-        content: 'Hi Seiju',
-        state: { type: 'sent', at: 2026-01-10T15:35:15.026Z }
-        }
+
+        After Hajime left:
+        [ 1, 3 ]
+        [
+        { type: 'user-joined', userId: 3, at: 2026-01-17T15:40:41.190Z },
+        { type: 'Message', MessageId: 1, at: 2026-01-17T15:40:41.193Z },
+        { type: 'user-left', userId: 2, at: 2026-01-17T15:40:41.197Z }
+        ]
         All events:  [
         {
-            type: 'MessageSent',
-            messageId: 1,
-            senderId: 1,
-            at: 2026-01-10T15:35:15.025Z
+            type: 'UserJoinedConversation',
+            conversationId: 1,
+            userId: 3,
+            at: 2026-01-17T15:40:41.190Z
         },
         {
             type: 'MessageSent',
-            messageId: 2,
-            senderId: 2,
-            at: 2026-01-10T15:35:15.026Z
-        },
-        {
-            type: 'MessageEdited',
-            messageId: 1,
-            editorId: 1,
-            content: 'Hi Hajime!, how are u?',
-            at: 2026-01-10T15:35:15.027Z
-        },
-        {
-            type: 'MessageRead',
             messageId: 1,
             senderId: 1,
-            readerId: 1,
-            at: 2026-01-10T15:35:15.027Z
+            at: 2026-01-17T15:40:41.193Z
         },
         {
-            type: 'MessageDeleted',
-            messageId: 2,
-            at: 2026-01-10T15:35:15.028Z
+            type: 'UserLeftConversation',
+            conversationId: 1,
+            userId: 2,
+            at: 2026-01-17T15:40:41.197Z
         }
-        ]
+        ]    
+
 */
