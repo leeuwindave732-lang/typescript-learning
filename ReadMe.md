@@ -103,6 +103,16 @@
 - [Day 48 - Implement soft delete and immutable state patterns for messages](./Day46-50/messages/)
 - [Day 49 - Implement event sourcing and domain events for message state changes](./Day46-50/events/)
 - [Day 50 - Integrate full messaging system with users, conversations, messages, and events](./Day46-50/main.ts)
+- [Day 51 - Add message attachments, reactions, and mentions](./Day51-55/messages/message.reaction.ts)
+- [Day 52 - Extend ConversationAggregate to manage attachments](./Day51-55/messages/message.attachment.ts)
+- [Day 53 - Implement mentions nad notifications](./Day51-55/messages/message.mention.ts)
+- [Day 54 - Implement Conversation Membership Lifecycle](./Day51-55/events/domain-event.ts)
+- [Day 55 - Integrate advance message features](./Day51-55/main.ts)
+- [Day 56 - Implement ReadModels & Query Separation](./Day56-60/read-models/)
+- [Day 57 - Add Domain Policies](./Day56-60/policies/)
+- [Day 58 - Implement Aggregate Refactor](./Day56-60/conversations/conversation.aggregate.ts)
+- [Day 59 - Implement Domain Invariants](./Day56-60/assertions/)
+- [Day 60 - Integrate all the added and updated](./Day56-60/main.ts)
 
 ## Mini Project
 - [Student Manager Console App (Day 1–10)](./Mini-Projects/Day1-10)
@@ -161,4 +171,15 @@
 - Day 48: Implement soft delete and immutable state patterns for messages
 - Day 49: Implement event sourcing and domain events for message state changes
 - Day 50: Integrate full messaging system with users, conversations, messages, and events
+- Day 51: Add message attachments, reactions, and mentions
+- Day 52: Extend ConversationAggregate to manage attachments
+- Day 53: Implement mentions nad notifications
+- Day 54: Implement Conversation Membership Lifecycle
+- Day 55: Integrate advance message features
+- Day 56: Implement ReadModels & Query Separation
+- Day 57: Add Domain Policies
+- Day 58: Implement Aggregate Refactor
+- Day 59: Implement Domain Invariants
+- Day 60: Integrate all the added and updated
+
 
