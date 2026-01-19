@@ -8,4 +8,4 @@ export type MemberId = Brand<number, "MemberID">;
 
 export const BookId = (id: number) => id as BookId;
 export const AuthorId = (id: number) => id as AuthorId;
-export const MemberID = (id: number) => id as MemberId;
+export const MemberId= (id: number) => id as MemberId;
