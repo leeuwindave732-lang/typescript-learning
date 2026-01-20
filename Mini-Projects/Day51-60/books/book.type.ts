@@ -1,10 +1,12 @@
 // book.type.ts
 import { BookId, AuthorId } from "../core/brand.js"
+import type { BookState } from "./book.state.js";
 
 export type Books = Readonly<{
-    BookId: BookId,
+    id: BookId,
     title: string,
-    genre: string,
+    authorId: AuthorId,
+    state: BookState
     
 }>;
 
